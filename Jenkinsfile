@@ -12,7 +12,7 @@ pipeline {
             steps {
                 
                     git branch : 'main',
-                    url: 'https://github.com/komalkasa162/git_practise.git'
+                    url: 'https://github.com/komalkasa162/devops-practise.git'
             }
         }
         stage("Message"){
